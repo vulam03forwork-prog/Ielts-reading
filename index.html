@@ -202,7 +202,7 @@
         // ======= DATA (ENGLISH ONLY) =======
         const IELTS_DATA = [
             {
-                id: 1, title: "The Evolution of Language", topic: "Linguistics", time: 60,
+                id: 1, title: "The Evolution of Language", topic: "Linguistics", time: 5,
                 passage: `<h2>The Evolution of Modern Language</h2><p>Language is a dynamic and ever-evolving system of communication. According to recent linguistic studies, the roots of modern English can be traced back to Germanic tribes...</p><p>Cognitive scientists argue that language acquisition is an innate human ability. Noam Chomsky's theory of Universal Grammar suggests that all humans are born with a biological brain mechanism...</p>`,
                 questions: [
                     { q: "What is the main focus of the passage?", options: ["History of tribes", "Evolution of language", "Modern biology", "Universal education"], correct: 1 },
@@ -210,7 +210,7 @@
                 ]
             },
             {
-                id: 2, title: "Urbanization in the 21st Century", topic: "Society", time: 60,
+                id: 2, title: "Urbanization in the 21st Century", topic: "Society", time: 5,
                 passage: `<h2>Challenges of Global Urbanization</h2><p>As of 2024, more than 50% of the world's population resides in urban areas. This shift from rural to urban living presents both opportunities and significant infrastructure challenges...</p>`,
                 questions: [
                     { q: "What percentage of people live in cities?", options: ["Less than 50%", "Exactly 40%", "More than 50%", "Exactly 100%"], correct: 2 }
@@ -272,7 +272,7 @@
                 <div class="test-card">
                     <small style="color:#667eea; font-weight:bold">${t.topic}</small>
                     <h3 style="margin: 10px 0">${t.title}</h3>
-                    <p style="font-size:0.9rem; color:#666; margin-bottom:1.5rem">Time: ${t.time} mins | 10 Questions</p>
+                    <p style="font-size:0.9rem; color:#666; margin-bottom:1.5rem">Time: ${t.time} mins | 2 Questions</p>
                     <button class="btn btn-primary" onclick="startTest(${t.id})">Start Reading</button>
                 </div>
             `).join('');
